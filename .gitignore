@@ -1,0 +1,34 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+backend/logs/
+
+# Node
+node_modules/
+frontend/pos-ui/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Front build outputs
+frontend/pos-ui/dist/
+frontend/pos-ui/dev-dist/
+frontend/pos-ui/.vite/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+TestResults/
+
+# Local env files
+.env
+.env.*
+frontend/pos-ui/.env.local
+!frontend/pos-ui/.env.example

@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <BuildInParallel>false</BuildInParallel>
+    <RestoreIgnoreFailedSources>true</RestoreIgnoreFailedSources>
+  </PropertyGroup>
+</Project>
